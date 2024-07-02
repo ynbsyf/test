@@ -1,0 +1,525 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+secret: ''
+proxies:
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.21.0:80","server":"104.17.21.0","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"👉🆔@v2ray_configs_pool`_1","server":"104.26.5.60","port":8080,"uuid":"d345d11e-c424-4583-b36e-527ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2raynselling.kir-rasol-kir.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"v2raynselling.kir-rasol-kir.workers.dev"}}}
+  - {"type":"vless","name":"🚩CF|🔴|vless|@ShadowProxy66|1","server":"104.18.8.215","port":8080,"uuid":"99678074-122c-46db-97fc-80b604c20158","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"shuige2.ywfmu-qx.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}}}
+  - {"type":"vmess","name":"🏁RELAY-162.159.152.2-0131","ws-opts":{"path":"/?ed=2048","headers":{"host":"japan.tgqyjc2024.qyjc666.xyz"}},"server":"tgqyjc2024.qyjc.xyz","port":2052,"uuid":"760e05da-2333-4db4-9de4-2926cd3c64cf","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.20.112:80","server":"104.17.20.112","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-172.67.147.31:80","server":"172.67.147.31","port":80,"uuid":"fb5cfe95-ee26-4399-be4b-36d648414b9c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"proxiiraniii.hitido2760.workers.dev","ws-opts":{"path":"/","headers":{"host":"proxiiraniii.hitido2760.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.18.14.19:8880","server":"104.18.14.19","port":8880,"uuid":"aece0e9c-fc30-4e53-b09c-29622372c2ed","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"iran-hamedan.beheni7009.workers.dev","ws-opts":{"headers":{"host":"iran-hamedan.beheni7009.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.27.1.85:8880","server":"104.27.1.85","port":8880,"uuid":"51baeda8-1288-458a-b5ae-b8b080b937b6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"樱桃.浆果.草莓.我们生活在2024地狱.site.","ws-opts":{"path":"/Telegram:,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,?ed=1024","headers":{"host":"樱桃.浆果.草莓.我们生活在2024地狱.site."}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.25.31:80","server":"104.21.25.31","port":80,"uuid":"fd3f257e-60c1-4093-bb3b-7e71f8007c4f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"no1.vless.site","ws-opts":{"path":"/vless","headers":{"host":"no1.vless.site"}}}
+  - {"type":"vmess","name":"🏁RELAY-104.19.21.63-1310","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}},"server":"104.19.21.63","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国CloudFlare节点_1","server":"172.67.204.84","port":443,"password":"qj1Dz1CJmFQRhWr1SP80aA","udp":true,"skip-cert-verify":true,"sni":"cdn-21.gsmxreality.com","network":"grpc"}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.56.202:80","server":"104.21.56.202","port":80,"uuid":"b0446189-b05d-4f64-acef-e43f13432a43","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"mahdi-hector-wind-8655.sahegaw957.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahdi-hector-wind-8655.sahegaw957.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.239.174:80","server":"104.21.239.174","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-172.67.187.219:8880","server":"172.67.187.219","port":8880,"uuid":"a61fc8cb-0012-4c4b-aa5e-d1c623ae8092","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"worker-late-feather-d436.wedome3486.workers.DEV","ws-opts":{"path":"/","headers":{"host":"worker-late-feather-d436.wedome3486.workers.DEV"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-190.93.247.166:80","server":"190.93.247.166","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"🇸🇪SE|🔴|vless|@shh_proxy|0","server":"185.146.173.37","port":2095,"uuid":"fcb6a88f-54ec-4d0e-ad76-e55e5679812d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"V2ray-_-_-_-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com.","ws-opts":{"path":"/","headers":{"host":"V2ray-_-_-_-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com."}}}
+  - {"type":"vmess","name":"🏁RELAY-104.19.123.11-0182","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}},"server":"104.19.123.11","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇮🇷IR_935","server":"benz.throttle1.online","port":8088,"cipher":"aes-256-gcm","password":"TdMwzJLRPZ7/ID51A+Y716yj0ulpFN2JDs6QDp+GrVE="}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.17.248:80","server":"104.17.17.248","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.59.165:8880","server":"104.21.59.165","port":8880,"uuid":"51d3d249-9095-4cbd-8fd2-3e6c1039cab4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"falcunargo.c2259d7c10.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"falcunargo.c2259d7c10.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.19.170.187:80","server":"104.19.170.187","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us3.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us3.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.16.48:80","server":"104.21.16.48","port":80,"uuid":"7c18eeab-f38f-48a2-ae25-50c26cdfb0d9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"anTiFiLTEr.dOXAs38496.wOrkErs.dEV","ws-opts":{"headers":{"host":"anTiFiLTEr.dOXAs38496.wOrkErs.dEV"}}}
+  - {"type":"vmess","name":"美国CloudFlare节点_2","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}},"server":"104.19.38.88","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"_786","server":"zzcm06.cacbce.com","port":2570,"password":"d6158003-acb2-50a2-80b3-726e51f4f9e8","udp":true,"skip-cert-verify":true,"sni":"hkt2.bbprovm.com"}
+  - {"type":"trojan","name":"🇮🇪IE-54.76.100.198-1295","server":"54.76.100.198","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk"}
+  - {"type":"vless","name":"🇸🇪SE|🔴|vless|@V2RayTz|4","server":"185.146.173.200","port":8880,"uuid":"387f4dcd-f43a-4b2c-b2ec-eefd39c99af4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"V2ray.C.weufgwoof.cfd.","ws-opts":{"path":"/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024","headers":{"host":"V2ray.C.weufgwoof.cfd."}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-172.67.199.19:8080","server":"172.67.199.19","port":8080,"uuid":"416f18ec-11f3-4648-9693-8c6480d0662d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JvRqBlAk5.IuBcInScKkSdNoI1.nEt","ws-opts":{"path":"/","headers":{"host":"JvRqBlAk5.IuBcInScKkSdNoI1.nEt"}}}
+  - {"type":"ss","name":"_669","server":"52.195.1.82","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.18.37.8:80","server":"104.18.37.8","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vmess","name":"🏁RELAY-104.19.45.17-0242","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}},"server":"104.19.45.17","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"0|-https://t.me/MrXbin-30","ws-opts":{"path":"/","headers":{"host":"107.173.146.129"}},"server":"107.173.146.129","port":80,"uuid":"5820093a-bb7d-4e15-8575-1a529f2d8282","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"_673","server":"h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art","port":449,"uuid":"2278146c-8fb0-3683-8300-342238f8a9d0","alterId":"1","cipher":"auto","network":""}
+  - {"type":"vless","name":"🚩CF|🔴|vless|@Outline_Vpn|17","server":"172.66.44.135","port":80,"uuid":"5df7962e-f9fe-41e6-ab49-ed96ccb856a7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2ra1.ecrgpk.workers.dev","ws-opts":{"path":"/","headers":{"host":"v2ra1.ecrgpk.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.24.200.13:8880","server":"104.24.200.13","port":8880,"uuid":"c58905af-2040-413e-adbc-0e81cc8eb35f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.behradmirzaei1388.workers.dev","ws-opts":{"path":"/","headers":{"host":"vless.behradmirzaei1388.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.18.192.65:8880","server":"104.18.192.65","port":8880,"uuid":"a61fc8cb-0012-4c4b-aa5e-d1c623ae8092","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"worker-late-feather-d436.wedome3486.workers.DEV","ws-opts":{"headers":{"host":"worker-late-feather-d436.wedome3486.workers.DEV"}}}
+  - {"type":"trojan","name":"🇩🇪DE_821","server":"3.121.2.15","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk"}
+  - {"type":"vless","name":"👉🆔@v2ray_configs_pool`_2","server":"185.146.173.37","port":8080,"uuid":"c5230401-30b1-438f-8dd4-12d83f665149","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"Ws.Mojpow.liVe.","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Ws.Mojpow.liVe."}}}
+  - {"type":"vless","name":"🇸🇪SE|🔴|vless|@Capoit|0","server":"185.146.173.83","port":80,"uuid":"6ec52bc7-fcd7-4841-ab69-70d6e03a6eda","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"آیدی-چنل-تلگرام-ماV2rayGodVipهستش.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.Site.","ws-opts":{"path":"@V2rayGodVip=Telegram/","headers":{"host":"آیدی-چنل-تلگرام-ماV2rayGodVipهستش.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.Site."}}}
+  - {"type":"trojan","name":"美国CloudFlare节点_3","server":"172.67.176.206","port":2053,"password":"ZJU29smXwp","udp":true,"skip-cert-verify":true,"sni":"damn-mci-again-3.danesh-bonyan.Store","network":"ws","ws-opts":{"path":"/","headers":{"host":"f-1.danesh-bonyan.store"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🇷🇴RO-45.12.30.249:80","server":"45.12.30.249","port":80,"uuid":"b3a313ec-7bea-5315-93ee-38ada6002bd8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sany.sany27654.WORkeRs.dev","ws-opts":{"path":"vless-ws/?ed=2560","headers":{"host":"sany.sany27654.WORkeRs.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.148.22:80","server":"104.17.148.22","port":80,"uuid":"f93ee5ea-2b69-49cb-aa7f-8e59c55f9e2f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ch1.dontbow.store.","ws-opts":{"path":"/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray","headers":{"host":"ch1.dontbow.store."}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.228.181:8080","server":"104.21.228.181","port":8080,"uuid":"3f9d3b52-1bcc-499f-aad0-ba71d6123f8b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"shuige3.cbj2bxt6.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige3.cbj2bxt6.workers.dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-172.67.160.179:8880","server":"172.67.160.179","port":8880,"uuid":"5faa94c6-ea27-4ea0-9e39-2de3d6ea9be1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"channel-falcunargo.efa180b5d7.workers.Dev","ws-opts":{"headers":{"host":"channel-falcunargo.efa180b5d7.workers.Dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.69.44:80","server":"104.21.69.44","port":80,"uuid":"5c9e0a79-de00-419c-955a-c50310613699","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"se2.vless.site","ws-opts":{"path":"/vless","headers":{"host":"se2.vless.site"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.126.27:80","server":"104.17.126.27","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us3.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us3.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-172.67.140.149:8880","server":"172.67.140.149","port":8880,"uuid":"3e2be9f4-363f-419d-a23a-28e171c6bc54","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-falcunargo.31186fb105.workers.Dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"telegram-falcunargo.31186fb105.workers.Dev"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🇸🇪SE-185.146.173.134:8080","server":"185.146.173.134","port":8080,"uuid":"3d5fbf69-057c-49b0-a324-48efb28ee23c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"unlimiteddev-vpn.unlimiteddev.Community.","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.213.2:80","server":"104.17.213.2","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us3.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us3.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.17.249:80","server":"104.17.17.249","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.30.209:80","server":"104.17.30.209","port":80,"uuid":"435bda4c-fe5e-42c9-a3ad-15334943b38a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"us1.rtacg.com","ws-opts":{"path":"/","headers":{"host":"us1.rtacg.com"}}}
+proxy-groups:
+  - name: 🐸速蛙云
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.21.0:80
+      - 👉🆔@v2ray_configs_pool`_1
+      - 🚩CF|🔴|vless|@ShadowProxy66|1
+      - 🏁RELAY-162.159.152.2-0131
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.20.112:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.147.31:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.14.19:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.27.1.85:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.25.31:80
+      - 🏁RELAY-104.19.21.63-1310
+      - 美国CloudFlare节点_1
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.56.202:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.239.174:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.187.219:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-190.93.247.166:80
+      - 🇸🇪SE|🔴|vless|@shh_proxy|0
+      - 🏁RELAY-104.19.123.11-0182
+      - 🇮🇷IR_935
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.17.248:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.59.165:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.19.170.187:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.16.48:80
+      - 美国CloudFlare节点_2
+      - _786
+      - 🇮🇪IE-54.76.100.198-1295
+      - 🇸🇪SE|🔴|vless|@V2RayTz|4
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.199.19:8080
+      - _669
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.37.8:80
+      - 🏁RELAY-104.19.45.17-0242
+      - 0|-https://t.me/MrXbin-30
+      - _673
+      - 🚩CF|🔴|vless|@Outline_Vpn|17
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.24.200.13:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.192.65:8880
+      - 🇩🇪DE_821
+      - 👉🆔@v2ray_configs_pool`_2
+      - 🇸🇪SE|🔴|vless|@Capoit|0
+      - 美国CloudFlare节点_3
+      - 🔒VL-WS-NONE🇷🇴RO-45.12.30.249:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.148.22:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.228.181:8080
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.160.179:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.69.44:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.126.27:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.140.149:8880
+      - 🔒VL-WS-NONE🇸🇪SE-185.146.173.134:8080
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.213.2:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.17.249:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.30.209:80
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.21.0:80
+      - 👉🆔@v2ray_configs_pool`_1
+      - 🚩CF|🔴|vless|@ShadowProxy66|1
+      - 🏁RELAY-162.159.152.2-0131
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.20.112:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.147.31:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.14.19:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.27.1.85:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.25.31:80
+      - 🏁RELAY-104.19.21.63-1310
+      - 美国CloudFlare节点_1
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.56.202:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.239.174:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.187.219:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-190.93.247.166:80
+      - 🇸🇪SE|🔴|vless|@shh_proxy|0
+      - 🏁RELAY-104.19.123.11-0182
+      - 🇮🇷IR_935
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.17.248:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.59.165:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.19.170.187:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.16.48:80
+      - 美国CloudFlare节点_2
+      - _786
+      - 🇮🇪IE-54.76.100.198-1295
+      - 🇸🇪SE|🔴|vless|@V2RayTz|4
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.199.19:8080
+      - _669
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.37.8:80
+      - 🏁RELAY-104.19.45.17-0242
+      - 0|-https://t.me/MrXbin-30
+      - _673
+      - 🚩CF|🔴|vless|@Outline_Vpn|17
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.24.200.13:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.192.65:8880
+      - 🇩🇪DE_821
+      - 👉🆔@v2ray_configs_pool`_2
+      - 🇸🇪SE|🔴|vless|@Capoit|0
+      - 美国CloudFlare节点_3
+      - 🔒VL-WS-NONE🇷🇴RO-45.12.30.249:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.148.22:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.228.181:8080
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.160.179:8880
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.69.44:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.126.27:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-172.67.140.149:8880
+      - 🔒VL-WS-NONE🇸🇪SE-185.146.173.134:8080
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.213.2:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.17.249:80
+      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.30.209:80
+rules:
+  - DOMAIN,services.googleapis.cn,DIRECT
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT
+  - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+  - DOMAIN,safebrowsing.googleapis.com,DIRECT
+  - DOMAIN,developer.apple.com,🐸速蛙云
+  - DOMAIN-SUFFIX,digicert.com,🐸速蛙云
+  - DOMAIN,ocsp.apple.com,🐸速蛙云
+  - DOMAIN,ocsp.comodoca.com,🐸速蛙云
+  - DOMAIN,ocsp.usertrust.com,🐸速蛙云
+  - DOMAIN,ocsp.sectigo.com,🐸速蛙云
+  - DOMAIN,ocsp.verisign.net,🐸速蛙云
+  - DOMAIN-SUFFIX,apple-dns.net,🐸速蛙云
+  - DOMAIN,testflight.apple.com,🐸速蛙云
+  - DOMAIN,sandbox.itunes.apple.com,🐸速蛙云
+  - DOMAIN,itunes.apple.com,🐸速蛙云
+  - DOMAIN-SUFFIX,apps.apple.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blobstore.apple.com,🐸速蛙云
+  - DOMAIN,cvws.icloud-content.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,cdn20.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,akadns.net,DIRECT
+  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+  - DOMAIN-SUFFIX,edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+  - DOMAIN-SUFFIX,mwcname.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+  - DOMAIN-KEYWORD,amazon,🐸速蛙云
+  - DOMAIN-KEYWORD,google,🐸速蛙云
+  - DOMAIN-KEYWORD,gmail,🐸速蛙云
+  - DOMAIN-KEYWORD,youtube,🐸速蛙云
+  - DOMAIN-KEYWORD,facebook,🐸速蛙云
+  - DOMAIN-SUFFIX,fb.me,🐸速蛙云
+  - DOMAIN-SUFFIX,fbcdn.net,🐸速蛙云
+  - DOMAIN-KEYWORD,twitter,🐸速蛙云
+  - DOMAIN-KEYWORD,instagram,🐸速蛙云
+  - DOMAIN-KEYWORD,dropbox,🐸速蛙云
+  - DOMAIN-SUFFIX,twimg.com,🐸速蛙云
+  - DOMAIN-KEYWORD,blogspot,🐸速蛙云
+  - DOMAIN-SUFFIX,youtu.be,🐸速蛙云
+  - DOMAIN-KEYWORD,whatsapp,🐸速蛙云
+  - DOMAIN-SUFFIX,geetest.com,🐸速蛙云
+  - DOMAIN-SUFFIX,9to5mac.com,🐸速蛙云
+  - DOMAIN-SUFFIX,abpchina.org,🐸速蛙云
+  - DOMAIN-SUFFIX,adblockplus.org,🐸速蛙云
+  - DOMAIN-SUFFIX,adobe.com,🐸速蛙云
+  - DOMAIN-SUFFIX,akamaized.net,🐸速蛙云
+  - DOMAIN-SUFFIX,alfredapp.com,🐸速蛙云
+  - DOMAIN-SUFFIX,amplitude.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ampproject.org,🐸速蛙云
+  - DOMAIN-SUFFIX,android.com,🐸速蛙云
+  - DOMAIN-SUFFIX,angularjs.org,🐸速蛙云
+  - DOMAIN-SUFFIX,aolcdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,apkpure.com,🐸速蛙云
+  - DOMAIN-SUFFIX,appledaily.com,🐸速蛙云
+  - DOMAIN-SUFFIX,appshopper.com,🐸速蛙云
+  - DOMAIN-SUFFIX,appspot.com,🐸速蛙云
+  - DOMAIN-SUFFIX,arcgis.com,🐸速蛙云
+  - DOMAIN-SUFFIX,archive.org,🐸速蛙云
+  - DOMAIN-SUFFIX,armorgames.com,🐸速蛙云
+  - DOMAIN-SUFFIX,aspnetcdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,att.com,🐸速蛙云
+  - DOMAIN-SUFFIX,awsstatic.com,🐸速蛙云
+  - DOMAIN-SUFFIX,azureedge.net,🐸速蛙云
+  - DOMAIN-SUFFIX,azurewebsites.net,🐸速蛙云
+  - DOMAIN-SUFFIX,bing.com,🐸速蛙云
+  - DOMAIN-SUFFIX,bintray.com,🐸速蛙云
+  - DOMAIN-SUFFIX,bit.com,🐸速蛙云
+  - DOMAIN-SUFFIX,bit.ly,🐸速蛙云
+  - DOMAIN-SUFFIX,bitbucket.org,🐸速蛙云
+  - DOMAIN-SUFFIX,bjango.com,🐸速蛙云
+  - DOMAIN-SUFFIX,bkrtx.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blog.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blogcdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blogger.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blogsmithmedia.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blogspot.com,🐸速蛙云
+  - DOMAIN-SUFFIX,blogspot.hk,🐸速蛙云
+  - DOMAIN-SUFFIX,bloomberg.com,🐸速蛙云
+  - DOMAIN-SUFFIX,box.com,🐸速蛙云
+  - DOMAIN-SUFFIX,box.net,🐸速蛙云
+  - DOMAIN-SUFFIX,cachefly.net,🐸速蛙云
+  - DOMAIN-SUFFIX,chromium.org,🐸速蛙云
+  - DOMAIN-SUFFIX,cl.ly,🐸速蛙云
+  - DOMAIN-SUFFIX,cloudflare.com,🐸速蛙云
+  - DOMAIN-SUFFIX,cloudfront.net,🐸速蛙云
+  - DOMAIN-SUFFIX,cloudmagic.com,🐸速蛙云
+  - DOMAIN-SUFFIX,cmail19.com,🐸速蛙云
+  - DOMAIN-SUFFIX,cnet.com,🐸速蛙云
+  - DOMAIN-SUFFIX,cocoapods.org,🐸速蛙云
+  - DOMAIN-SUFFIX,comodoca.com,🐸速蛙云
+  - DOMAIN-SUFFIX,crashlytics.com,🐸速蛙云
+  - DOMAIN-SUFFIX,culturedcode.com,🐸速蛙云
+  - DOMAIN-SUFFIX,d.pr,🐸速蛙云
+  - DOMAIN-SUFFIX,danilo.to,🐸速蛙云
+  - DOMAIN-SUFFIX,dayone.me,🐸速蛙云
+  - DOMAIN-SUFFIX,db.tt,🐸速蛙云
+  - DOMAIN-SUFFIX,deskconnect.com,🐸速蛙云
+  - DOMAIN-SUFFIX,disq.us,🐸速蛙云
+  - DOMAIN-SUFFIX,disqus.com,🐸速蛙云
+  - DOMAIN-SUFFIX,disquscdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,dnsimple.com,🐸速蛙云
+  - DOMAIN-SUFFIX,docker.com,🐸速蛙云
+  - DOMAIN-SUFFIX,dribbble.com,🐸速蛙云
+  - DOMAIN-SUFFIX,droplr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,duckduckgo.com,🐸速蛙云
+  - DOMAIN-SUFFIX,dueapp.com,🐸速蛙云
+  - DOMAIN-SUFFIX,dytt8.net,🐸速蛙云
+  - DOMAIN-SUFFIX,edgecastcdn.net,🐸速蛙云
+  - DOMAIN-SUFFIX,edgekey.net,🐸速蛙云
+  - DOMAIN-SUFFIX,edgesuite.net,🐸速蛙云
+  - DOMAIN-SUFFIX,engadget.com,🐸速蛙云
+  - DOMAIN-SUFFIX,entrust.net,🐸速蛙云
+  - DOMAIN-SUFFIX,eurekavpt.com,🐸速蛙云
+  - DOMAIN-SUFFIX,evernote.com,🐸速蛙云
+  - DOMAIN-SUFFIX,fabric.io,🐸速蛙云
+  - DOMAIN-SUFFIX,fast.com,🐸速蛙云
+  - DOMAIN-SUFFIX,fastly.net,🐸速蛙云
+  - DOMAIN-SUFFIX,fc2.com,🐸速蛙云
+  - DOMAIN-SUFFIX,feedburner.com,🐸速蛙云
+  - DOMAIN-SUFFIX,feedly.com,🐸速蛙云
+  - DOMAIN-SUFFIX,feedsportal.com,🐸速蛙云
+  - DOMAIN-SUFFIX,fiftythree.com,🐸速蛙云
+  - DOMAIN-SUFFIX,firebaseio.com,🐸速蛙云
+  - DOMAIN-SUFFIX,flexibits.com,🐸速蛙云
+  - DOMAIN-SUFFIX,flickr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,flipboard.com,🐸速蛙云
+  - DOMAIN-SUFFIX,g.co,🐸速蛙云
+  - DOMAIN-SUFFIX,gabia.net,🐸速蛙云
+  - DOMAIN-SUFFIX,geni.us,🐸速蛙云
+  - DOMAIN-SUFFIX,gfx.ms,🐸速蛙云
+  - DOMAIN-SUFFIX,ggpht.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ghostnoteapp.com,🐸速蛙云
+  - DOMAIN-SUFFIX,git.io,🐸速蛙云
+  - DOMAIN-KEYWORD,github,🐸速蛙云
+  - DOMAIN-SUFFIX,globalsign.com,🐸速蛙云
+  - DOMAIN-SUFFIX,gmodules.com,🐸速蛙云
+  - DOMAIN-SUFFIX,godaddy.com,🐸速蛙云
+  - DOMAIN-SUFFIX,golang.org,🐸速蛙云
+  - DOMAIN-SUFFIX,gongm.in,🐸速蛙云
+  - DOMAIN-SUFFIX,goo.gl,🐸速蛙云
+  - DOMAIN-SUFFIX,goodreaders.com,🐸速蛙云
+  - DOMAIN-SUFFIX,goodreads.com,🐸速蛙云
+  - DOMAIN-SUFFIX,gravatar.com,🐸速蛙云
+  - DOMAIN-SUFFIX,gstatic.com,🐸速蛙云
+  - DOMAIN-SUFFIX,gvt0.com,🐸速蛙云
+  - DOMAIN-SUFFIX,hockeyapp.net,🐸速蛙云
+  - DOMAIN-SUFFIX,hotmail.com,🐸速蛙云
+  - DOMAIN-SUFFIX,icons8.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ifixit.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ift.tt,🐸速蛙云
+  - DOMAIN-SUFFIX,ifttt.com,🐸速蛙云
+  - DOMAIN-SUFFIX,iherb.com,🐸速蛙云
+  - DOMAIN-SUFFIX,imageshack.us,🐸速蛙云
+  - DOMAIN-SUFFIX,img.ly,🐸速蛙云
+  - DOMAIN-SUFFIX,imgur.com,🐸速蛙云
+  - DOMAIN-SUFFIX,imore.com,🐸速蛙云
+  - DOMAIN-SUFFIX,instapaper.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ipn.li,🐸速蛙云
+  - DOMAIN-SUFFIX,is.gd,🐸速蛙云
+  - DOMAIN-SUFFIX,issuu.com,🐸速蛙云
+  - DOMAIN-SUFFIX,itgonglun.com,🐸速蛙云
+  - DOMAIN-SUFFIX,itun.es,🐸速蛙云
+  - DOMAIN-SUFFIX,ixquick.com,🐸速蛙云
+  - DOMAIN-SUFFIX,j.mp,🐸速蛙云
+  - DOMAIN-SUFFIX,js.revsci.net,🐸速蛙云
+  - DOMAIN-SUFFIX,jshint.com,🐸速蛙云
+  - DOMAIN-SUFFIX,jtvnw.net,🐸速蛙云
+  - DOMAIN-SUFFIX,justgetflux.com,🐸速蛙云
+  - DOMAIN-SUFFIX,kat.cr,🐸速蛙云
+  - DOMAIN-SUFFIX,klip.me,🐸速蛙云
+  - DOMAIN-SUFFIX,libsyn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,linode.com,🐸速蛙云
+  - DOMAIN-SUFFIX,lithium.com,🐸速蛙云
+  - DOMAIN-SUFFIX,littlehj.com,🐸速蛙云
+  - DOMAIN-SUFFIX,live.com,🐸速蛙云
+  - DOMAIN-SUFFIX,live.net,🐸速蛙云
+  - DOMAIN-SUFFIX,livefilestore.com,🐸速蛙云
+  - DOMAIN-SUFFIX,llnwd.net,🐸速蛙云
+  - DOMAIN-SUFFIX,macid.co,🐸速蛙云
+  - DOMAIN-SUFFIX,macromedia.com,🐸速蛙云
+  - DOMAIN-SUFFIX,macrumors.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mashable.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mathjax.org,🐸速蛙云
+  - DOMAIN-SUFFIX,medium.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mega.co.nz,🐸速蛙云
+  - DOMAIN-SUFFIX,mega.nz,🐸速蛙云
+  - DOMAIN-SUFFIX,megaupload.com,🐸速蛙云
+  - DOMAIN-SUFFIX,microsofttranslator.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mindnode.com,🐸速蛙云
+  - DOMAIN-SUFFIX,mobile01.com,🐸速蛙云
+  - DOMAIN-SUFFIX,modmyi.com,🐸速蛙云
+  - DOMAIN-SUFFIX,msedge.net,🐸速蛙云
+  - DOMAIN-SUFFIX,myfontastic.com,🐸速蛙云
+  - DOMAIN-SUFFIX,name.com,🐸速蛙云
+  - DOMAIN-SUFFIX,nextmedia.com,🐸速蛙云
+  - DOMAIN-SUFFIX,nsstatic.net,🐸速蛙云
+  - DOMAIN-SUFFIX,nssurge.com,🐸速蛙云
+  - DOMAIN-SUFFIX,nyt.com,🐸速蛙云
+  - DOMAIN-SUFFIX,nytimes.com,🐸速蛙云
+  - DOMAIN-SUFFIX,omnigroup.com,🐸速蛙云
+  - DOMAIN-SUFFIX,onedrive.com,🐸速蛙云
+  - DOMAIN-SUFFIX,onenote.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ooyala.com,🐸速蛙云
+  - DOMAIN-SUFFIX,openvpn.net,🐸速蛙云
+  - DOMAIN-SUFFIX,openwrt.org,🐸速蛙云
+  - DOMAIN-SUFFIX,orkut.com,🐸速蛙云
+  - DOMAIN-SUFFIX,osxdaily.com,🐸速蛙云
+  - DOMAIN-SUFFIX,outlook.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ow.ly,🐸速蛙云
+  - DOMAIN-SUFFIX,paddleapi.com,🐸速蛙云
+  - DOMAIN-SUFFIX,parallels.com,🐸速蛙云
+  - DOMAIN-SUFFIX,parse.com,🐸速蛙云
+  - DOMAIN-SUFFIX,pdfexpert.com,🐸速蛙云
+  - DOMAIN-SUFFIX,periscope.tv,🐸速蛙云
+  - DOMAIN-SUFFIX,pinboard.in,🐸速蛙云
+  - DOMAIN-SUFFIX,pinterest.com,🐸速蛙云
+  - DOMAIN-SUFFIX,pixelmator.com,🐸速蛙云
+  - DOMAIN-SUFFIX,pixiv.net,🐸速蛙云
+  - DOMAIN-SUFFIX,playpcesor.com,🐸速蛙云
+  - DOMAIN-SUFFIX,playstation.com,🐸速蛙云
+  - DOMAIN-SUFFIX,playstation.com.hk,🐸速蛙云
+  - DOMAIN-SUFFIX,playstation.net,🐸速蛙云
+  - DOMAIN-SUFFIX,playstationnetwork.com,🐸速蛙云
+  - DOMAIN-SUFFIX,pushwoosh.com,🐸速蛙云
+  - DOMAIN-SUFFIX,rime.im,🐸速蛙云
+  - DOMAIN-SUFFIX,servebom.com,🐸速蛙云
+  - DOMAIN-SUFFIX,sfx.ms,🐸速蛙云
+  - DOMAIN-SUFFIX,shadowsocks.org,🐸速蛙云
+  - DOMAIN-SUFFIX,sharethis.com,🐸速蛙云
+  - DOMAIN-SUFFIX,shazam.com,🐸速蛙云
+  - DOMAIN-SUFFIX,skype.com,🐸速蛙云
+  - DOMAIN-SUFFIX,smartdns🐸速蛙云.com,🐸速蛙云
+  - DOMAIN-SUFFIX,smartmailcloud.com,🐸速蛙云
+  - DOMAIN-SUFFIX,sndcdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,sony.com,🐸速蛙云
+  - DOMAIN-SUFFIX,soundcloud.com,🐸速蛙云
+  - DOMAIN-SUFFIX,sourceforge.net,🐸速蛙云
+  - DOMAIN-SUFFIX,spotify.com,🐸速蛙云
+  - DOMAIN-SUFFIX,squarespace.com,🐸速蛙云
+  - DOMAIN-SUFFIX,sstatic.net,🐸速蛙云
+  - DOMAIN-SUFFIX,st.luluku.pw,🐸速蛙云
+  - DOMAIN-SUFFIX,stackoverflow.com,🐸速蛙云
+  - DOMAIN-SUFFIX,startpage.com,🐸速蛙云
+  - DOMAIN-SUFFIX,staticflickr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,steamcommunity.com,🐸速蛙云
+  - DOMAIN-SUFFIX,symauth.com,🐸速蛙云
+  - DOMAIN-SUFFIX,symcb.com,🐸速蛙云
+  - DOMAIN-SUFFIX,symcd.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tapbots.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tapbots.net,🐸速蛙云
+  - DOMAIN-SUFFIX,tdesktop.com,🐸速蛙云
+  - DOMAIN-SUFFIX,techcrunch.com,🐸速蛙云
+  - DOMAIN-SUFFIX,techsmith.com,🐸速蛙云
+  - DOMAIN-SUFFIX,thepiratebay.org,🐸速蛙云
+  - DOMAIN-SUFFIX,theverge.com,🐸速蛙云
+  - DOMAIN-SUFFIX,time.com,🐸速蛙云
+  - DOMAIN-SUFFIX,timeinc.net,🐸速蛙云
+  - DOMAIN-SUFFIX,tiny.cc,🐸速蛙云
+  - DOMAIN-SUFFIX,tinypic.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tmblr.co,🐸速蛙云
+  - DOMAIN-SUFFIX,todoist.com,🐸速蛙云
+  - DOMAIN-SUFFIX,trello.com,🐸速蛙云
+  - DOMAIN-SUFFIX,trustasiassl.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tumblr.co,🐸速蛙云
+  - DOMAIN-SUFFIX,tumblr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tweetdeck.com,🐸速蛙云
+  - DOMAIN-SUFFIX,tweetmarker.net,🐸速蛙云
+  - DOMAIN-SUFFIX,twitch.tv,🐸速蛙云
+  - DOMAIN-SUFFIX,txmblr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,typekit.net,🐸速蛙云
+  - DOMAIN-SUFFIX,ubertags.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ublock.org,🐸速蛙云
+  - DOMAIN-SUFFIX,ubnt.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ulyssesapp.com,🐸速蛙云
+  - DOMAIN-SUFFIX,urchin.com,🐸速蛙云
+  - DOMAIN-SUFFIX,usertrust.com,🐸速蛙云
+  - DOMAIN-SUFFIX,v.gd,🐸速蛙云
+  - DOMAIN-SUFFIX,v2ex.com,🐸速蛙云
+  - DOMAIN-SUFFIX,vimeo.com,🐸速蛙云
+  - DOMAIN-SUFFIX,vimeocdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,vine.co,🐸速蛙云
+  - DOMAIN-SUFFIX,vivaldi.com,🐸速蛙云
+  - DOMAIN-SUFFIX,vox-cdn.com,🐸速蛙云
+  - DOMAIN-SUFFIX,vsco.co,🐸速蛙云
+  - DOMAIN-SUFFIX,vultr.com,🐸速蛙云
+  - DOMAIN-SUFFIX,w.org,🐸速蛙云
+  - DOMAIN-SUFFIX,w3schools.com,🐸速蛙云
+  - DOMAIN-SUFFIX,webtype.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wikiwand.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wikileaks.org,🐸速蛙云
+  - DOMAIN-SUFFIX,wikimedia.org,🐸速蛙云
+  - DOMAIN-SUFFIX,wikipedia.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wikipedia.org,🐸速蛙云
+  - DOMAIN-SUFFIX,windows.com,🐸速蛙云
+  - DOMAIN-SUFFIX,windows.net,🐸速蛙云
+  - DOMAIN-SUFFIX,wire.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wordpress.com,🐸速蛙云
+  - DOMAIN-SUFFIX,workflowy.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wp.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wsj.com,🐸速蛙云
+  - DOMAIN-SUFFIX,wsj.net,🐸速蛙云
+  - DOMAIN-SUFFIX,xda-developers.com,🐸速蛙云
+  - DOMAIN-SUFFIX,xeeno.com,🐸速蛙云
+  - DOMAIN-SUFFIX,xiti.com,🐸速蛙云
+  - DOMAIN-SUFFIX,yahoo.com,🐸速蛙云
+  - DOMAIN-SUFFIX,yimg.com,🐸速蛙云
+  - DOMAIN-SUFFIX,ying.com,🐸速蛙云
+  - DOMAIN-SUFFIX,yoyo.org,🐸速蛙云
+  - DOMAIN-SUFFIX,ytimg.com,🐸速蛙云
+  - DOMAIN-SUFFIX,telegra.ph,🐸速蛙云
+  - DOMAIN-SUFFIX,telegram.org,🐸速蛙云
+  - IP-CIDR,91.108.4.0/22,🐸速蛙云
+  - IP-CIDR,91.108.8.0/21,🐸速蛙云
+  - IP-CIDR,91.108.16.0/22,🐸速蛙云
+  - IP-CIDR,91.108.56.0/22,🐸速蛙云
+  - IP-CIDR,149.154.160.0/20,🐸速蛙云
+  - IP-CIDR6,2001:67c:4e8::/48,🐸速蛙云
+  - IP-CIDR6,2001:b28:f23d::/48,🐸速蛙云
+  - IP-CIDR6,2001:b28:f23f::/48,🐸速蛙云
+  - DOMAIN,injections.adguard.org,DIRECT
+  - DOMAIN,local.adguard.org,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,0.0.0.0/8,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,169.254.0.0/16,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.0.0.0/24,DIRECT
+  - IP-CIDR,192.0.2.0/24,DIRECT
+  - IP-CIDR,192.88.99.0/24,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,198.18.0.0/15,DIRECT
+  - IP-CIDR,198.51.100.0/24,DIRECT
+  - IP-CIDR,203.0.113.0/24,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,240.0.0.0/4,DIRECT
+  - IP-CIDR,255.255.255.255/32,DIRECT
+  - IP-CIDR6,::1/128,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  - IP-CIDR6,fc00::/7,DIRECT
+  - IP-CIDR6,ff00::/8,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🐸速蛙云
